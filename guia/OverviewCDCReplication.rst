@@ -48,6 +48,6 @@ No todos los motores de replicación de CDC utilizan Single Scrape. Para CDC Rep
 
 Hay dos tipos de destinos de replicación solo de destino que no son bases de datos:
 
-J**MS Messages:** actúa como un destino de mensaje JMS (cola o tema) para operaciones de nivel de fila que se crean como documentos XML.
+**JMS Messages:** actúa como un destino de mensaje JMS (cola o tema) para operaciones de nivel de fila que se crean como documentos XML.
 
 **IBM DataStage:** procesa los cambios entregados desde la réplica de CDC que pueden utilizar los trabajos de IBM DataStage.
