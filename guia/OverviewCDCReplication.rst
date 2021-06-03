@@ -51,3 +51,17 @@ Hay dos tipos de destinos de replicación solo de destino que no son bases de da
 **JMS Messages:** actúa como un destino de mensaje JMS (cola o tema) para operaciones de nivel de fila que se crean como documentos XML.
 
 **IBM DataStage:** procesa los cambios entregados desde la réplica de CDC que pueden utilizar los trabajos de IBM DataStage.
+
+
+
+Comprensión del flujo de trabajo de replicación de CDC
+++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Esta lista y las siguientes secciones detallan el flujo de trabajo para configurar CDC y configurar la replicación de CDC:
+
+Instalación de Access Server
+Instalación de Management Console
+Agregar y configurar datastores
+Agregar y configurar subscriptions
+Asignación y personalización de tablas: si está utilizando InfoSphere® DataStage®, genere archivos de generating .dsx y clases Java personalizadas para trabajos de InfoSphere DataStage.
+Inicio y finalización de la replicación

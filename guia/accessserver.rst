@@ -176,18 +176,23 @@ Instalamos.::
 
 	PRESS <ENTER> TO EXIT THE INSTALLER: 
 
+Creamos un grupo y usuario::
+
+	# groupadd replica
+	# useradd -g replica  -m -d /home/replica replica -p password1
+	# su - replica
 
 Iniciamos el servicio.::
 	
-	# /opt/TS_AccessServer/bin/dmaccessserver &
+	$ /opt/TS_AccessServer/bin/dmaccessserver &
 
 Verificamos.::
 
-	# ps -ef | grep -i ts_
-	root      6299  2804  1 19:08 pts/0    00:00:00 /opt/TS_AccessServer/jre64/jre/bin/dmaccessserver-java -Duser.folder=/opt/TS_AccessServer -server -Xmx512m -jar lib/server.jar 11010
-	root      6328  2804  0 19:09 pts/0    00:00:00 grep -i ts_
+	$ ps -ef | grep TS_
+	replica      6299  2804  1 19:08 pts/0    00:00:00 /opt/TS_AccessServer/jre64/jre/bin/dmaccessserver-java -Duser.folder=/opt/TS_AccessServer -server -Xmx512m -jar lib/server.jar 11010
+	replica      6328  2804  0 19:09 pts/0    00:00:00 grep -i TS_
 
-	# netstat -an | grep -w 11010
+	$ netstat -an | grep -w 11010
 	tcp        0      0 :::11010                    :::*                        LISTEN
 
 
