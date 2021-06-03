@@ -196,3 +196,10 @@ Verificamos.::
 	tcp        0      0 :::11010                    :::*                        LISTEN
 
 
+
+**Con esto terminas de crear el usuario para poder ingresar desde la consola**
+
+
+> /opt/TS_AccessServer/bin/dmcreateuser admin User_Admin Usuario_Administrador Passwor01 SYSADMIN TRUE TRUE FALSE
+
+
