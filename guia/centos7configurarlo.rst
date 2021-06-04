@@ -6,6 +6,13 @@ Asegurar estos prerrequisitos
 
 Nuestra maquina virtual le vamos a llamar **CDC01**
 
+
+Aseguremos una IP fija.
+
+Deshabilitar Selinux
+
+Deshabilitar el Firewall
+
 **Configurar el nombre del HOST y su IP en el archivo /etc/hosts**::
 
 	# vi /etc/hosts
