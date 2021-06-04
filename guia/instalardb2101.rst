@@ -13,7 +13,7 @@ Creamos el home directory en donde estará los archivos y configuración para in
 
 	# mkdir /db2home
 
-Debemos tener el instalador de IBM DB2 10.1 express que es **db2_v101_linuxx64_expc_lite.tar.gz**
+Debemos tener el instalador de IBM DB2 10.1 express que es **db2_v101_linuxx64_expc_lite.tar.gz**::
 
 	# ls -l db2_v101_linuxx64_expc_lite.tar.gz
 
@@ -44,5 +44,47 @@ Al ejecutar el comando y si tenemos bien configurada el forwarding de las X11 ve
 .. figure:: ../images/101/06.png
 .. figure:: ../images/101/05.png
 
+
+Seleccionar **Install Product**
+
+.. figure:: ../images/101/07.png
+.. figure:: ../images/101/08.png
+.. figure:: ../images/101/09.png
+.. figure:: ../images/101/10.png
+.. figure:: ../images/101/11.png
+
+
+
+Aquí creamos el Administrador que se requieren para poder instanciar una BD de DB2. La clave que utilizo es Venezuela21.
+
+
+
+.. figure:: ../images/101/12.png
+.. figure:: ../images/101/13.png
+
+
+
+Aquí creamos el Instance Owner de DB2. La clave que utilizo es Venezuela21.
+
+
+
+.. figure:: ../images/101/14.png
+
+
+
+Aquí creamos el Fenced de DB2. La clave que utilizo es Venezuela21.
+
+
+
+.. figure:: ../images/101/15.png
+
+
+.. figure:: ../images/101/16.png
+
+
+.. figure:: ../images/101/17.png
+
+
+.. figure:: ../images/101/18.png
 
 
