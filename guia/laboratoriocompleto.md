@@ -7,7 +7,7 @@ Access Server 11.3.0
 Replication engine for DB2 Linux 10.2.1 (Agent CDC)
 Replication engine for Oracle Linux 10.2.1 (Agent CDC)
 
-* [Instalar CentOS 7 y Configurarlo](guia/centos7configurarlo.rst) 
+* [Instalar CentOS 7 y Configurarlo](centos7configurarlo.rst) 
 * [Instalar DB2 10.1](guia/centos7configurarlo.rst) 
 * [Instalar Oracle XE 11.1](guia/centos7configurarlo.rst) 
 * [Instalar Access Server 11.3.0](guia/accessserver.rst) 
