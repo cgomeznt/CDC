@@ -168,23 +168,9 @@ Ahora si podemos ejecutar la herramienta de configuracion .::
 .. figure:: ../images/03.png
 .. figure:: ../images/04.png
 
+Iniciar un agente
 
-[db2inst3@db2 ~]$ db2 "update db cfg for test using logarchmeth1 LOGRETAIN"
-DB20000I  The UPDATE DATABASE CONFIGURATION command completed successfully.
-SQL1363W  Database must be deactivated and reactivated before the changes to
-one or more of the configuration parameters will be effective.
-[db2inst3@db2 ~]$ db2 "update db cfg for test using LOG_DDL_STMTS YES"
-DB20000I  The UPDATE DATABASE CONFIGURATION command completed successfully.
-[db2inst3@db2 ~]$ db2 "update db cfg for test using DFT_SCHEMAS_DCC YES"
-DB20000I  The UPDATE DATABASE CONFIGURATION command completed successfully.
-
-$ db2 "backup db source to /db2home/db2inst2/backupdb"
-
-Backup successful. The timestamp for this backup image is : 20210603102922
-
-[db2inst2@cdc01 ~]$ ls backupdb/
-SOURCE.0.db2inst2.DBPART000.20210603102922.001
-
+$ /opt/TS_agents_target/bin/dmts64 -I agent_target &
 
 
 
