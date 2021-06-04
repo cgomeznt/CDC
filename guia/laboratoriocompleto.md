@@ -10,7 +10,7 @@ Los componentes de CDC seran:
 	Replication engine for Oracle Linux 10.2.1 (Agent CDC)
 
 * [Configurar CentOS 7](centos7configurarlo.rst) 
-* [Instalar DB2 10.1](centos7configurarlo.rst) 
+* [Instalar DB2 10.1](instalardb2101.rst) 
 * [Instalar Oracle XE 11.1](centos7configurarlo.rst) 
 * [Instalar Access Server 11.3.0](accessserver.rst) 
 * [Instalar Replication engine for DB2 Linux 10.2.1](agentedb2.rst)

@@ -65,6 +65,7 @@ Nos conectamos al servidor con ssh y le pasamos el parámetro ".X" y debemos con
 	root@192.168.1.100's password: 
 	Last login: Wed Oct  3 19:42:07 2018 from 192.168.1.4
 	/usr/bin/xauth:  file /root/.Xauthority does not exist
+
 	# echo $DISPLAY
 	localhost:10.0
 
