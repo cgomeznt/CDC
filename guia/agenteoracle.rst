@@ -1,7 +1,7 @@
 Instalar Replication engine for Oracle Linux 
 =========================================
 
-Descargar el Access Server que se requiera en este caso sera el 11.3, part number CIU0TML
+Descargar el Replication engine for Oracle Linux que se requiera en este caso sera el 11.3, part number CIU0TML
 
 http://www-01.ibm.com/support/docview.wss?uid=swg24038293
 
@@ -271,7 +271,7 @@ Empieza el proceso de interacción con la configuración::
 
 
 
-Iniciar el agente creado para DB2::
+Iniciar el agente creado para Oracle::
 
 	$ /opt/TS_agent_oracle/bin/dmts64 -I agent_oracle &
 

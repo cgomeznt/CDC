@@ -1,7 +1,7 @@
 Instalar Replication engine for DB2 Linux 
 =========================================
 
-Descargar el Access Server que se requiera en este caso sera el 11.3, part number CIU0UML
+Descargar el Replication engine for DB2 Linux  que se requiera en este caso sera el 11.3, part number CIU0UML
 
 http://www-01.ibm.com/support/docview.wss?uid=swg24038293
 
