@@ -27,7 +27,7 @@ Como es primera vez que iniciamos sesión, nos obliga a cambiar la clave.
 .. figure:: ../images/mc/03.png
 
 
-Ya podemos ingresar con la nueva clave
+Ya podemos ingresar con la nueva clave y esta sera el área de trabajo.
 
 .. figure:: ../images/mc/04.png
 
@@ -42,6 +42,11 @@ En el área de trabajo le damos clic derecho y seleccionamos **New Datastore**
 
 Nos Trae la siguiente ventana y la completamos los campos de **Identification** luego le damos click al boton **Ping** y el nos completa la información en **Properties**
 
+.. figure:: ../images/mc/07.png
+
+Luego en esa misma ventana debemos pulsar sobre el boton **Connection Parameters** IMPORTANTE nunca olvidar esta configuración porque aquí se le debe colocar el usuario y clave de la BD
+
+.. figure:: ../images/mc/08.png
 
 
 
