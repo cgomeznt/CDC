@@ -37,7 +37,7 @@ Lo primero que debemos hacer es configurar los DataStore, es aquí en donde le i
 
 En el área de trabajo le damos clic derecho y seleccionamos **New Datastore**
 
-.. figure:: ../images/mc/06.png
+.. figure:: ../images/mc/05.png
 
 Nos Trae la siguiente ventana y la completamos los campos de **Identification** luego le damos click al boton **Ping** y el nos completa la información en **Properties**
 
