@@ -1,19 +1,30 @@
 Troubleshooting
 ===============
 
-En el laboratorio anterior solo llegamos hasta crear la Subscription y la dejamos **inactive**, recordemos que  seleccionamos una tabla en la BD de Origen y le indicamos que creara una tabla con el mismo nombre en la BD Destino.
+En el laboratorio anterior solo llegamos hasta crear la Subscription y la dejamos **inactive**, recordemos que seleccionamos una tabla en la BD de Origen y le indicamos que creara una tabla con el mismo nombre en la BD Destino.
 
 Iniciar la Subscripción. Ver como inicialmente se pone en **Refresh** y luego se queda en **Mirror**.
+
 Verificar que los registros de la Tabla en la BD Origen se hayan replicado en la Tabla en la BD Destino.
+
 Verificar que ambas tablas tengan la misma cantidad de registros.
+
 Agregar nuevos registros en la Tabla de la BD Origen.
+
 Certificar que los nuevos registros se hayan replicado en la Tabla en la BD Destino.
+
 Truncar la Tabla de la BD de Destino.
+
 Analizar que la Subscripción, se mantiene en **Mirror**
+
 Agregar nuevos registros en la Tabla de la BD Origen.
+
 Certificar que los nuevos registros se hayan replicado en la Tabla en la BD Destino.
+
 Como se detalla los registros anteriores no se observan, solo los nuevos.
+
 Detener la Subscripción e iniciarla en **Refresh**, observar como se trae todos los registros nuevamente y luego se queda en **Mirror**.
+
 
 Lo primero que debemos hacer es tener dos terminales uno conectado con la BD Origen que es DB2 y otra con la BD Destino que es Oracle.
 
@@ -218,7 +229,7 @@ Se coloca en **Inactive**
 
 .. figure:: ../images/ts/09.png
 
-Nos vamos a la pestaña de **Configuration**, y vemos la columna **Status** que no dice que esta **Active**, esto lo que nos quiere decir es que esta en **Mirror Continuous**. Ahora seleccionamos la subscripción con botón derecho y marcamos **Flag to Refresh**
+Nos vamos a la pestaña de **Configuration**, y vemos la columna **Status** que no dice que esta **Active**, esto lo que nos quiere decir es que esta en **Mirror Continuous**. Ahora seleccionamos la subscripción con botón derecho y marcamos **Flag for Refresh**
 
 
 .. figure:: ../images/ts/10.png
