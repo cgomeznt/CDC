@@ -2,6 +2,7 @@ Instalar Replication engine for DB2 Linux
 =========================================
 
 Descargar el Access Server que se requiera en este caso sera el 11.3, part number CIU0UML
+
 http://www-01.ibm.com/support/docview.wss?uid=swg24038293
 
 Prerequisitos.::
@@ -155,10 +156,6 @@ Procedemos a instalar.::
 	   /opt/TS_agent_DB2/bin/dmconfigurets
 
 	Launch Configuration Tool? (1=Yes, 2=No) (DEFAULT: 1): 2
-
-Nos aseguramos que nuestra conexion SSH tenga el forwarding de las X. o conectamos nuevamente.::
-
-	$ ssh -X root@192.168.56.11
 
 Cambiamos el propietario de la carpeta para que funcione el usuario replica::
 

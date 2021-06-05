@@ -2,6 +2,7 @@ IBM InfoSphere Change Data Capture v11.3.0 Access Server for Linux x86 Multiling
 ==================================================================================
 
 Descargar el Access Server que se requiera en este caso sera el 11.3, part number CN0GJML
+
 http://www-01.ibm.com/support/docview.wss?uid=swg24038293
 
 
@@ -16,7 +17,7 @@ Descomprimir el paquete.::
 
 	# cd IIDR_1130_AccessServer/
 
-Instalamos.::
+Verificamos el instalador y le otorgamos permisos de ejecución.::
 
 	# ls -l
 	total 231040
@@ -25,7 +26,7 @@ Instalamos.::
 
 	# chmod +x iidraccess-11.3-3236-linux-x86-setup.bin
 
-.::
+Procedemos a instalar.::
 
 	# ./iidraccess-11.3-3236-linux-x86-setup.bin 
 	Preparing to install...
@@ -199,7 +200,7 @@ Verificamos que levante el puerto que configuramos::
 	tcp6       0      0 :::11010                :::*                    LISTEN      5566/dmaccessserver 
 
 
-Ahora para poder ingresar necesitamos un usuario y clave **Con esto terminas de crear el usuario para poder ingresar desde la consola**, podemos crear tantos usuarios se necesiten::
+Ahora para poder ingresar necesitamos un usuario y clave **Con esto terminas de crear el usuario para poder ingresar desde el Management console**, podemos crear tantos usuarios se necesiten::
 
 
 	$ /opt/TS_AccessServer/bin/dmcreateuser admin User_Admin Usuario_Administrador Venezuela21 SYSADMIN TRUE TRUE FALSE
