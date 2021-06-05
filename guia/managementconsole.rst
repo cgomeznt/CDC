@@ -33,7 +33,6 @@ Ya podemos ingresar con la nueva clave y esta sera el área de trabajo.
 
 Lo primero que debemos hacer es configurar los DataStore, es aquí en donde le indicamos al Access Server por medio del Management Console como se va conectar con los Agentes de CDC. Para eso nos vamos a la pestaña de **Access Manager**
 
-
 .. figure:: ../images/mc/05.png
 
 En el área de trabajo le damos clic derecho y seleccionamos **New Datastore**
