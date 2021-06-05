@@ -1,7 +1,7 @@
-IBM InfoSphere Change Data Capture v11.3 Access Server for Linux x86 Multilingual
+IBM InfoSphere Change Data Capture v11.3.0 Access Server for Linux x86 Multilingual
 ==================================================================================
 
-Descargar el Access Server que se requiera en este caso sera el 11.3
+Descargar el Access Server que se requiera en este caso sera el 11.3, part number CN0GJML
 http://www-01.ibm.com/support/docview.wss?uid=swg24038293
 
 
@@ -180,26 +180,29 @@ Creamos un grupo y usuario::
 
 	# groupadd replica
 	# useradd -g replica  -m -d /home/replica replica -p password1
+	# chown -R replica. /opt/TS_AccessServer
 	# su - replica
 
 Iniciamos el servicio.::
 	
 	$ /opt/TS_AccessServer/bin/dmaccessserver &
 
-Verificamos.::
+Verificamos el Proceso.::
 
 	$ ps -ef | grep TS_
 	replica      6299  2804  1 19:08 pts/0    00:00:00 /opt/TS_AccessServer/jre64/jre/bin/dmaccessserver-java -Duser.folder=/opt/TS_AccessServer -server -Xmx512m -jar lib/server.jar 11010
 	replica      6328  2804  0 19:09 pts/0    00:00:00 grep -i TS_
 
-	$ netstat -an | grep -w 11010
-	tcp        0      0 :::11010                    :::*                        LISTEN
+Verificamos que levante el puerto que configuramos::
+
+	$ netstat -natp | grep -w 11010
+	tcp6       0      0 :::11010                :::*                    LISTEN      5566/dmaccessserver 
 
 
+Ahora para poder ingresar necesitamos un usuario y clave **Con esto terminas de crear el usuario para poder ingresar desde la consola**, podemos crear tantos usuarios se necesiten::
 
-**Con esto terminas de crear el usuario para poder ingresar desde la consola**::
 
+	$ /opt/TS_AccessServer/bin/dmcreateuser admin User_Admin Usuario_Administrador Venezuela21 SYSADMIN TRUE TRUE FALSE
 
-	$ /opt/TS_AccessServer/bin/dmcreateuser admin User_Admin Usuario_Administrador Passwor01 SYSADMIN TRUE TRUE FALSE
-
+Listo ya tenemos el Access Server de CDC operativo...!!!
 

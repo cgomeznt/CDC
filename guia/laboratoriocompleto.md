@@ -2,7 +2,7 @@ En este laboratorio tendra dos (2) maquinas virtuales.
 
 Una maquina virtual con Windows 10 para instalar ahí el Management Console de CDC.
 
-Una maquina virtual con CentOS 7 como Sistema Operativo con 2Gb de RAM y 40Gb de HDD, un (1) Adaptador tipo Bridge, que tendra dos (2) manejadores de Base de datos y sus agentes de CDC correspondientes al manejador de Base de datos y tambien estara ahí el Access Server de CDC.
+Una maquina virtual con CentOS 7 como Sistema Operativo con 2Gb de RAM,40Gb de HDD y el swap debe ser de 2Gb, un (1) Adaptador tipo Bridge, que tendra dos (2) manejadores de Base de datos y sus agentes de CDC correspondientes al manejador de Base de datos y tambien estara ahí el Access Server de CDC.
 
 Los dos (2) manejadores de Base de Datos serán:
 	IBM DB2 Express 10.1 y Oracle XE 11g
