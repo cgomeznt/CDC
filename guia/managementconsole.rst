@@ -180,6 +180,6 @@ Status
 
 .. figure:: ../images/mc/35.png
 
-Ahora para finalizar nos vamos a la pestaña **Monitoring** **Subscriptions** y en el TAB **Subscriptions** desde ahí vemos el status de la subscription y podemos ver que no esta iniciada, que esta inactiva. NO la iniciemos esto lo hacemos en otro capitulo de Troubleshooting.
+Ahora para finalizar nos vamos a la pestaña **Monitoring** y en el TAB **Subscriptions** desde ahí vemos el status de la subscription y podemos ver que no esta iniciada, que esta inactiva. NO la iniciemos esto lo hacemos en otro capitulo de Troubleshooting.
 
 .. figure:: ../images/mc/36.png

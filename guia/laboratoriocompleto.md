@@ -17,4 +17,4 @@ Los componentes de CDC seran:
 * [Instalar Replication engine for DB2 Linux 10.2.1](agentedb2.rst)
 * [Instalar Replication engine for Oracle Linux 10.2.1](agenteoracle.rst)
 * [Instalar Management Console](managementconsole.rst)
-
+* [Troubleshooting](troubleshooting.rst)
